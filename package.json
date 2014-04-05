@@ -1,0 +1,29 @@
+{
+  "name": "folding-code",
+  "version": "0.0.1",
+  "description": "A demo showing that Cirru folds code easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Cirru/cirru-folding-code.git"
+  },
+  "keywords": [
+    "cirru"
+  ],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cirru/cirru-folding-code/issues"
+  },
+  "homepage": "https://github.com/Cirru/cirru-folding-code",
+  "devDependencies": {
+    "shelljs": "~0.2.6",
+    "cirru-html": "~0.1.7",
+    "devtools-reloader-station": "0.0.3",
+    "vue": "~0.10.3",
+    "cirru-parser": "~0.7.1"
+  }
+}
