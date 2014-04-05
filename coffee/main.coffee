@@ -10,6 +10,11 @@ Vue.component 'expression',
     toggle: (event) ->
       event.stopPropagation()
       @folded = not @folded
+    render: (token) ->
+      cond = token.split('').some (x) ->
+        x in ',"()$ '.split('')
+      if cond then "\"#{token}\""
+      else token
 
 app = new Vue
   el: '#app'

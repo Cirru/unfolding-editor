@@ -11,4 +11,4 @@ script#expression
         :v-with "node: $value"
   span.token
     :v-if "isToken($value)"
-    :v-model "$value"
+    :v-model "render($value)"
