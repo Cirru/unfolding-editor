@@ -1,9 +1,11 @@
 
-Cirru Folding Code
-------
+Unfolding editor
+----
 
-Demo: http://repo.cirru.org/folding-code/
+### Workflow
 
-![](http://cirru.qiniudn.com/folding-code.png)
+Workflow https://github.com/mvc-works/calcit-workflow
 
-Just a simple demo showing Cirru can fold code.
+### License
+
+MIT
